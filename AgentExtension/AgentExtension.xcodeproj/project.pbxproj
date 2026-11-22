@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B0000010000000000000001 /* AgentExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0000020000000000000001 /* AgentExtension.swift */; };
+		7B0000030000000000000001 /* AgentActionsCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0000040000000000000001 /* AgentActionsCatalog.swift */; };
+		7B0000050000000000000001 /* AgentItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0000060000000000000001 /* AgentItems.swift */; };
+		7B0000070000000000000001 /* AgentRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0000080000000000000001 /* AgentRun.swift */; };
+		7B0000090000000000000001 /* AgentCLI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0000100000000000000001 /* AgentCLI.swift */; };
+		7B0000110000000000000001 /* AgentExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0000120000000000000001 /* AgentExtensionTests.swift */; };
+		7B0000130000000000000001 /* AgentExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B0000140000000000000001 /* AgentExtension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B0000150000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B0000160000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B0000170000000000000001;
+			remoteInfo = AgentExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B0000020000000000000001 /* AgentExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentExtension.swift; sourceTree = "<group>"; };
+		7B0000040000000000000001 /* AgentActionsCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentActionsCatalog.swift; sourceTree = "<group>"; };
+		7B0000060000000000000001 /* AgentItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentItems.swift; sourceTree = "<group>"; };
+		7B0000080000000000000001 /* AgentRun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentRun.swift; sourceTree = "<group>"; };
+		7B0000100000000000000001 /* AgentCLI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentCLI.swift; sourceTree = "<group>"; };
+		7B0000120000000000000001 /* AgentExtensionTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AgentExtensionTests.swift; sourceTree = "<group>"; };
+		7B0000140000000000000001 /* AgentExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AgentExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B0000180000000000000001 /* AgentExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgentExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B0000190000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B0000200000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		7B0000210000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (7B0000130000000000000001 /* AgentExtension.framework in Frameworks */); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B0000220000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				7B0000230000000000000001 /* AgentExtension */,
+				7B0000120000000000000001 /* AgentExtensionTests.swift */,
+				7B0000240000000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B0000230000000000000001 /* AgentExtension */ = {
+			isa = PBXGroup;
+			children = (
+				7B0000020000000000000001 /* AgentExtension.swift */,
+				7B0000040000000000000001 /* AgentActionsCatalog.swift */,
+				7B0000060000000000000001 /* AgentItems.swift */,
+				7B0000080000000000000001 /* AgentRun.swift */,
+				7B0000100000000000000001 /* AgentCLI.swift */,
+				7B0000190000000000000001 /* Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		7B0000240000000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B0000140000000000000001 /* AgentExtension.framework */,
+				7B0000180000000000000001 /* AgentExtensionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B0000170000000000000001 /* AgentExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B0000250000000000000001 /* Build configuration list for PBXNativeTarget "AgentExtension" */;
+			buildPhases = (
+				7B0000260000000000000001 /* Sources */,
+				7B0000200000000000000001 /* Frameworks */,
+				7B0000270000000000000001 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = AgentExtension;
+			packageProductDependencies = (7B0000280000000000000001 /* TunaKit */);
+			productName = AgentExtension;
+			productReference = 7B0000140000000000000001 /* AgentExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B0000290000000000000001 /* AgentExtensionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B0000300000000000000001 /* Build configuration list for PBXNativeTarget "AgentExtensionTests" */;
+			buildPhases = (
+				7B0000310000000000000001 /* Sources */,
+				7B0000210000000000000001 /* Frameworks */,
+				7B0000320000000000000001 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = (7B0000330000000000000001 /* PBXTargetDependency */);
+			name = AgentExtensionTests;
+			packageProductDependencies = (7B0000340000000000000001 /* TunaKit */);
+			productName = AgentExtensionTests;
+			productReference = 7B0000180000000000000001 /* AgentExtensionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B0000160000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = { 7B0000170000000000000001 = { CreatedOnToolsVersion = 15.0; }; };
+			};
+			buildConfigurationList = 7B0000350000000000000001 /* Build configuration list for PBXProject "AgentExtension" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en);
+			mainGroup = 7B0000220000000000000001;
+			packageReferences = (7B0000360000000000000001 /* XCRemoteSwiftPackageReference "TunaKit" */);
+			productRefGroup = 7B0000240000000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B0000170000000000000001 /* AgentExtension */,
+				7B0000290000000000000001 /* AgentExtensionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B0000270000000000000001 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		7B0000320000000000000001 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B0000260000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0000010000000000000001 /* AgentExtension.swift in Sources */,
+				7B0000030000000000000001 /* AgentActionsCatalog.swift in Sources */,
+				7B0000050000000000000001 /* AgentItems.swift in Sources */,
+				7B0000070000000000000001 /* AgentRun.swift in Sources */,
+				7B0000090000000000000001 /* AgentCLI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B0000310000000000000001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (7B0000110000000000000001 /* AgentExtensionTests.swift in Sources */); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B0000330000000000000001 /* PBXTargetDependency */ = {isa = PBXTargetDependency; name = AgentExtension; target = 7B0000170000000000000001 /* AgentExtension */; targetProxy = 7B0000150000000000000001 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7B0000370000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DDB8SQMXS9;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@loader_path/Frameworks");
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brnbw.tuna.plugins.agent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7B0000380000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DDB8SQMXS9;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@loader_path/Frameworks");
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brnbw.tuna.plugins.agent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7B0000390000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = { PRODUCT_NAME = AgentExtension; }; name = Debug; };
+		7B0000400000000000000001 /* Release */ = {isa = XCBuildConfiguration; buildSettings = { PRODUCT_NAME = AgentExtension; }; name = Release; };
+		7B0000410000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brnbw.AgentExtensionTests;
+				PRODUCT_MODULE_NAME = AgentExtensionTests;
+				PRODUCT_NAME = AgentExtensionTests;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7B0000420000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brnbw.AgentExtensionTests;
+				PRODUCT_MODULE_NAME = AgentExtensionTests;
+				PRODUCT_NAME = AgentExtensionTests;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B0000250000000000000001 /* Build configuration list for PBXNativeTarget "AgentExtension" */ = {isa = XCConfigurationList; buildConfigurations = (7B0000370000000000000001 /* Debug */, 7B0000380000000000000001 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		7B0000300000000000000001 /* Build configuration list for PBXNativeTarget "AgentExtensionTests" */ = {isa = XCConfigurationList; buildConfigurations = (7B0000410000000000000001 /* Debug */, 7B0000420000000000000001 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		7B0000350000000000000001 /* Build configuration list for PBXProject "AgentExtension" */ = {isa = XCConfigurationList; buildConfigurations = (7B0000390000000000000001 /* Debug */, 7B0000400000000000000001 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7B0000360000000000000001 /* XCRemoteSwiftPackageReference "TunaKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tunaformac/TunaKit";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.22.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7B0000280000000000000001 /* TunaKit */ = {isa = XCSwiftPackageProductDependency; package = 7B0000360000000000000001 /* XCRemoteSwiftPackageReference "TunaKit" */; productName = TunaKit; };
+		7B0000340000000000000001 /* TunaKit */ = {isa = XCSwiftPackageProductDependency; package = 7B0000360000000000000001 /* XCRemoteSwiftPackageReference "TunaKit" */; productName = TunaKit; };
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7B0000160000000000000001 /* Project object */;
+}

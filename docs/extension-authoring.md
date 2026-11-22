@@ -81,7 +81,7 @@ determine presentation or search behavior.
 | Direct indexed local content | `NotesExtension`, `RemindersExtension` | A bounded local corpus belongs directly in global search. |
 | Indexed content plus opt-in browse root | `SafariExtension`, `PoofExtension`, `ObsidianExtension`, parts of `RemindersExtension` | Everything should be browsable while users choose which concrete items enter global search. |
 | Hierarchical local files/config | `ObsidianExtension`, `PoofExtension` | External folders, files, or native config form the domain hierarchy and writes must preserve native data. |
-| Dynamic local CLI | `BrewExtension` | Enumeration and mutations are command-driven; expensive work and completion need explicit ownership. |
+| Dynamic local CLI | `BrewExtension`, `AgentExtension` | Enumeration and mutations are command-driven; expensive work and completion need explicit ownership. |
 | Remote deferred browse/write | `ArenaExtension` | Network content is browsed lazily without type-to-search, with connection-scoped writes and partial failures. |
 | Remote browse and scoped search | `GitHubExtension`, `NotionExtension` | Provider search runs as users type inside explicit roots, with connections and deferred state. |
 | Remote paged search/grid | `MyMindExtension` | Large visual libraries need paging, thumbnails, resolution, and Quick Look. |

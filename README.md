@@ -34,6 +34,7 @@ below rather than a generic template, and include the new project in `TunaExtens
 
 | Extension | What it does |
 | --- | --- |
+| AgentExtension | Hand one-shot questions and tasks to Claude Code, Codex, or Antigravity |
 | ArenaExtension | Browse Are.na channels and save links or text |
 | BrewExtension | Search and manage Homebrew packages |
 | ChromeExtension | Browse Chrome bookmarks and launch profiles |
